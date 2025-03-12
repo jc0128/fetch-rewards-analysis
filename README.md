@@ -183,6 +183,10 @@ final as (
 )
 select * from final
 ```
+Here is an example of the output of the SQL query:
+
+<img width="611" alt="Screenshot 2025-03-12 at 3 46 25 PM" src="https://github.com/user-attachments/assets/f989bc72-c4eb-484d-8d1f-99831b1bab8c" />
+
 
 
 
