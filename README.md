@@ -40,6 +40,7 @@ After transforming the jsons into a readable format, I am able to create a relat
 - Primary Key: *list_id* (This is a created SKEY to create a unique key)
 - Foreign Keys: *receipt_id*
 
+Herre is a link to the DBDiagram in more context: [Fetch Reward Data Model](https://dbdiagram.io/d/67d06dea75d75cc844b1f917)
 <img src="./Fetch_Rewards_Data_Model.png" alt="ER Diagram" width="800" height="auto">
 
 
