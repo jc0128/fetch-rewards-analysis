@@ -27,7 +27,7 @@ Here are the exported .csv files that are cleaned:
 
 ## Data Modeling (Creating Relational Data Model Diagram)
 
-![Fetch Rewards Data Model](./Fetch Rewards Data Model.png){ width=500px }
+![Fetch Rewards Data Model](./Fetch_Rewards_Data_Model.png){ width=500px }
 
 
 
