@@ -63,9 +63,7 @@ I deciede to answer these business questions:
 
 I was able to create a single querry that answers both of these questions here:
 
-
-<pre style="font-size: 14px;">
-<code>
+```sql
 with users as (
 	select 
 		distinct
@@ -184,8 +182,7 @@ final as (
 	order by total_spend DESC
 )
 select * from final
-</code>
-</pre>
+```
 
 
 
