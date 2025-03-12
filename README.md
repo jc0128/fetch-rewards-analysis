@@ -188,7 +188,15 @@ Here is an example of the output of the SQL query:
 <img width="611" alt="Screenshot 2025-03-12 at 3 46 25 PM" src="https://github.com/user-attachments/assets/f989bc72-c4eb-484d-8d1f-99831b1bab8c" />
 
 
-
+## Data Quality Checks 
+To ensure data integrety and exploration of the data quality, I performed the following data checks:
+- **Incosistent Brand Names:** Comparing the brand name in the *Brands* and *Receipt Items List* table.
+- **Checking Duplications (Uniqueness):** Checking for duplicates in each table. The Users table had duplicated records of *user_id*.
+- **Invalid Entries:** Looking for nuances and weird data entries. In the *Brands* table the *brand_name* had *test* records
+- **NULL Values:** Checking for NULL Values or missing values that could affect Joins between tables.
+- **Join Testing:** Looking into joins between the *Brands* and *Receipt_items_list* table to see unmatched joins.
+- **Unrealistic Negative Values:** Checking the price and quantity fields in the *Receipts_items_list* table for unrealistic values.
+  
 
 
 
