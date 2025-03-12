@@ -10,5 +10,5 @@ This is an repository contains my solutions on unstructured data to provide anal
 
 
 ## Data Transformation (Converting .json files to .csv)
-Looking through the json files, there are nested fields within the tables that need to be unnested or cleaned and converted to a format that is readible into a database. I created a jupyter notebook python file [View Jupyter Notebook Python File](./to_csv.ipynb) to clean and normalize these json files provided. 
+Looking through the json files, there are nested fields within the tables that need to be unnested or cleaned and converted to a format that is readible into a database. I created a jupyter notebook python file: [to_csv.ipynb](./to_csv.ipynb) to clean and normalize these json files provided. 
 
