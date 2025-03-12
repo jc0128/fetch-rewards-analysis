@@ -24,4 +24,6 @@ Here are the exported .csv files that are cleaned:
 - [Receipts.csv](./receipts.csv)
 - [Receipt Items List.csv](./receipt_items_list.csv)
 
+
 ## Data Modeling (Creating Relational Data Model Diagram)
+
