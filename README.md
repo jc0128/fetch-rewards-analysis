@@ -26,7 +26,7 @@ Here are the exported .csv files that are cleaned:
 
 
 ## Data Modeling (Creating Relational Data Model Diagram)
-<img src="./Fetch_Rewards_Data_Model.png" alt="ER Diagram" width="500" height="auto">
+<img src="./Fetch_Rewards_Data_Model.png" alt="ER Diagram" width="800" height="auto">
 
 
 
