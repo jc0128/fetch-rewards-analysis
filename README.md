@@ -196,6 +196,7 @@ To ensure data integrety and exploration of the data quality, I performed the fo
 - **NULL Values:** Checking for NULL Values or missing values that could affect Joins between tables.
 - **Join Testing:** Looking into joins between the *Brands* and *Receipt_items_list* table to see unmatched joins.
 - **Unrealistic Negative Values:** Checking the price and quantity fields in the *Receipts_items_list* table for unrealistic values.
+- **Extra Notes:** I created some SQL scripts to do some EDA and exploration on joins. 
   
 
 
