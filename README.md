@@ -19,8 +19,8 @@ I perform some normalization of the nested fields and addresssed any field namin
 After reviewing the unstructured json files, I discovered there is a nested table in the receipts.json file that can be extracted separately into another table by itself from the *rewards_receipt_item_list field*.
 
 Here are the exported .csv files that are cleaned:
-- [Brands](./brands.csv)
-- [Users](./users.csv)
-- [Receipts](./receipts.csv)
-- [Receipt Items List](./receipt_items_list.csv)
+- [Brands.csv](./brands.csv)
+- [Users.csv](./users.csv)
+- [Receipts.csv](./receipts.csv)
+- [Receipt Items List.csv](./receipt_items_list.csv)
 
