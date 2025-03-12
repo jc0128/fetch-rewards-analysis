@@ -199,6 +199,8 @@ To ensure data integrety and exploration of the data quality, I performed the fo
 - **Extra Notes:** I created some SQL scripts to do some EDA and exploration on joins. 
   
 
+Here is the SQL Queries that I have created to perform these checks:
+[Receipt Items List.csv](./data_quality_queries.sql)
 
 
 
