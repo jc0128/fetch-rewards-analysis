@@ -57,9 +57,9 @@ There were a couple of steps I need to make sure I was able to import the .csv f
 
 I deciede to answer these business questions:
 
-*Which brand has the most spend among users who were created within the past 6 months?*
+**Which brand has the most spend among users who were created within the past 6 months?**
 
-*Which brand has the most transactions among users who were created within the past 6 months?*
+**Which brand has the most transactions among users who were created within the past 6 months?**
 
 I was able to create a single querry that answers both of these questions:
 
