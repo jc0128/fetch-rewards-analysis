@@ -43,6 +43,7 @@ After transforming the jsons into a readable format, I am able to create a relat
 
 <img src="./Fetch_Rewards_Data_Model.png" alt="ER Diagram" width="800" height="auto">
 Here is a link to the DBDiagram in more context: 
+
 [Fetch Reward Data Model](https://dbdiagram.io/d/67d06dea75d75cc844b1f917)
 
 
