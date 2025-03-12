@@ -12,9 +12,9 @@ This is an repository contains my solutions on unstructured data to provide anal
 ## Data Transformation (Converting .json files to .csv)
 Looking through the json files, there are nested fields within the tables that need to be unnested or cleaned and converted to a format that is readible into a database. 
 
-I created a jupyter notebook python file: [to_csv.ipynb](./to_csv.ipynb) to clean and normalize these json files provided. I normalize the json files individually and export them to a .csv files. *(Note: you will need to comment out lines and put your file path to read in json files)*
+I created a jupyter notebook python file: [to_csv.ipynb](./to_csv.ipynb) to clean and normalize these json files provided. I normalize the json files individually and export them to a .csv files. *(Note: you will need to comment out lines and put your file path to read in json files)*.
 
-I perform some normalization of the nested fields and addresssed any field naming issues like lowercasing and taking '$' out. 
+I perform some normalization of the nested fields and addresssed any field naming issues like lowercasing and taking *'$'* out. 
 
 After reviewing the unstructured json files, I discovered there is a nested table in the receipts.json file that can be extracted separately into another table by itself from the *rewards_receipt_item_list field*.
 
@@ -197,10 +197,11 @@ To ensure data integrety and exploration of the data quality, I performed the fo
 - **Join Testing:** Looking into joins between the *Brands* and *Receipt_items_list* table to see unmatched joins.
 - **Unrealistic Negative Values:** Checking the price and quantity fields in the *Receipts_items_list* table for unrealistic values.
 - **Extra Notes:** I created some SQL scripts to do some EDA and exploration on joins. 
-  
 
 Here is the SQL Queries that I have created to perform these checks:
 [Data_quality_queries.sql](./data_quality_queries.sql)
 
 
 
+
+## Stakeholder Communication:
