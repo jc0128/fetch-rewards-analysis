@@ -53,6 +53,15 @@ There were a couple of steps I need to make sure I was able to import the .csv f
 - Create a postgres local database *(created a DEV Fetch Rewards Database)*.
 - Import configure the .csv files into the *DEV* environment with the correct data types.
 - Additional Cleaning  fields in the tables *(date fields, null values, creating skey, aggregations, etc.)*.
+- Creating CTE's to querry the business operations question.
+
+I deciede to answer these business questions:
+*Which brand has the most spend among users who were created within the past 6 months?*
+*Which brand has the most transactions among users who were created within the past 6 months?*
+
+I was able to create a single querry that answers both of these questions:
+
+
 
 
 
