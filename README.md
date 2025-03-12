@@ -56,6 +56,7 @@ There were a couple of steps I need to make sure I was able to import the .csv f
 - Creating CTE's to querry the business operations question.
 
 I deciede to answer these business questions:
+
 *Which brand has the most spend among users who were created within the past 6 months?*
 *Which brand has the most transactions among users who were created within the past 6 months?*
 
