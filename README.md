@@ -14,5 +14,13 @@ Looking through the json files, there are nested fields within the tables that n
 
 I created a jupyter notebook python file: [to_csv.ipynb](./to_csv.ipynb) to clean and normalize these json files provided. I normalize the json files individually and export them to a .csv files. *(Note: you will need to comment out lines and put your file path to read in json files)*
 
-After reviewing the unstructured json files. I discovered there is a nested table in the receipts.json file that can be extracted separately into another table by itself from the *rewards_receipt_item_list field*.
+I perform some normalization of the nested fields and addresssed any field naming issues like lowercasing and taking '$' out. 
+
+After reviewing the unstructured json files, I discovered there is a nested table in the receipts.json file that can be extracted separately into another table by itself from the *rewards_receipt_item_list field*.
+
+Here are the exported .csv files that are cleaned:
+- [Brands](./brands.csv)
+- [Users](./users.csv)
+- [Receipts](./receipts.csv)
+- [Receipt Items List](./receipt_items_list.csv)
 
