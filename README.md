@@ -200,7 +200,7 @@ To ensure data integrety and exploration of the data quality, I performed the fo
   
 
 Here is the SQL Queries that I have created to perform these checks:
-[Receipt Items List.csv](./data_quality_queries.sql)
+[Data_quality_queries.sql](./data_quality_queries.sql)
 
 
 
