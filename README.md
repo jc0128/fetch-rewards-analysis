@@ -26,7 +26,17 @@ Here are the exported .csv files that are cleaned:
 
 
 ## Data Modeling (Creating Relational Data Model Diagram)
+
+After transforming the jsons into a readable format, I am able to create a relational diagram on the tables based on primary and forien keys I have identified:
+
+- **Brands:** Primary Key: *brand_id*, Foreign Keys: *brand_code* (This could be used as a joinable key but, it is not advised).
+- **Users:** Primary Key: *user_id*
+- **Receipts:** Primary Key: *receipt_id* Foreign Keys: *user_id*
+- **Receipt Items Lis:t** Primary Key: *list_id* (This is a created SKEY to create a unique key). Foreign Keys: *receipt_id*
+
 <img src="./Fetch_Rewards_Data_Model.png" alt="ER Diagram" width="800" height="auto">
+
+
 
 
 
