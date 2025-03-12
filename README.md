@@ -50,8 +50,9 @@ Here is a link to the DBDiagram in more context:
 ## SQL Queries for Business Operations 
 There were a couple of steps I need to make sure I was able to import the .csv files into SQL client *(I used Dbeaver)*.
 - Install homebrew
-- Create a postgres local database *(created a DEV Fetch Rewards Database)*
-- import configure the .csv files into the *DEV* environment with the correct data types
+- Create a postgres local database *(created a DEV Fetch Rewards Database)*.
+- Import configure the .csv files into the *DEV* environment with the correct data types.
+- Additional Cleaning  fields in the tables *(date fields, null values, creating skey, aggregations, etc.)*.
 
 
 
