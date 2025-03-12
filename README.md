@@ -8,5 +8,6 @@ This is an repository contains my solutions on unstructured data to provide anal
 4. **Data Quality Checks:**Explore and identify data quality issues and resolve inconsitencies if possible 
 5. **Stakeholder Comunnication:** Generate insights from the data and address/ ask questions to the stakeholder
 
-##Data Transformation (Converting .json files to .csv)
+
+## Data Transformation (Converting .json files to .csv)
 
