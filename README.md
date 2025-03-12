@@ -27,3 +27,7 @@ Here are the exported .csv files that are cleaned:
 
 ## Data Modeling (Creating Relational Data Model Diagram)
 
+![Fetch Rewards Data Model](https://github.com/user-attachments/assets/9ffb61b3-0c33-42c0-b58b-d0f18ff9199e)
+
+
+
