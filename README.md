@@ -247,5 +247,7 @@ As data grows, we would want to consider different scaling options and may need 
 Please let me know if you have any questions and I would love to discuss these point further - let me know if a quick meeting would be help!
 
 Best,
+
+
 Justin 
 
