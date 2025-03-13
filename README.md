@@ -231,7 +231,7 @@ Durring our data exploratory analysis and data validation, we discovered missmat
 Having more cleaner/clearer brand and recipt data will give us a better leverage user spending behavior habits and insights as well as popular trending brands/items. Aligning on how we are consitently defining brand names and handling missing data can ensure better data quality within our reporting. 
 
 - **Performance and Scailing Consierations:**
-As data grows, we would want to consider different scaling options and may need to optimize query performance by indexing key fields such as  *barcodes, user_id, and receipt_id*. We could consinder other partioning strategies like incremental loading in data based on new row data entries.  If our table grows and becomes extremely large, we could even consider creating a view querry which is quick way pull data reports. If the data is updated frequently, we can consider caching or creating scheduled refresh strategy which would help maintain efficiency.
+As data grows, we would want to consider different scaling options and may need to optimize query performance by indexing key fields such as  *barcodes, user_id, and receipt_id*. We could consinder other partioning strategies like incremental loading (loading data in based on new row data entries).  If our table grows and becomes extremely large, we could even consider creating a view querry which is quick way to pull data reports. If the data is updated frequently, we can consider caching or creating scheduled refresh strategy which would help maintain efficiency.
 
 Please let me know if you have any questions and I would love to discuss these point further - let me know if a quick meeting would be help!
 
