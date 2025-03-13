@@ -1,6 +1,17 @@
 # Fetch Rewards Analysis
 This is an repository contains my solutions on unstructured data to provide analysis on transactional receipt data, clean and validate multiple datasets and generate insights via Python and SQL. 
 
+## Table of Contents  
+- [Problem Statement](#Problem-Statement)  
+- [Data Transformation](#Data-Transformation)  
+- [Data Modeling](#Data-Modeling)  
+- [SQL Queries for Business Operations](#SQL-Queries-for-Business-Operations)  
+- [Data Quality Checks](#Data-Quality-Checks)  
+- [Optimization Strategies](#optimization-strategies)  
+- [Stakeholder Communication (Slack Message or Email)](#Stakeholder-Communication-(Slack-Message-or-Email))  
+
+
+
 ## Problem Statement
 1. **Data Transformation:** Review unstructured json files (*brands.json*, *users.json*, *receipt.json*) and process/clean the datasets.
 2. **Data Modeling:** Build a new structure relational data model and diagram.
