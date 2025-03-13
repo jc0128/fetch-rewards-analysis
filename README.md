@@ -204,4 +204,13 @@ Here is the SQL Queries that I have created to perform these checks:
 
 
 
-## Stakeholder Communication:
+## Stakeholder Communication (Slack Message or Email):
+
+If I were to comunicate my findings and analysis of the datasets to buisness stakeholders who are non-technical, this is how I would construct my email:
+
+Hello stakeholder(s), 
+
+I hope you are doing well and enjoying your week! 
+I wanted to follow up with my analysis on the Fetch Rewards data that you have assigned me to look into over.  I wanted to highlight and address a few key findings and questions to ensure we have accuracy and alignment. 
+
+
