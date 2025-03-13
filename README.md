@@ -221,5 +221,5 @@ Durring our data exploratory analysis and data validation, we discovered missmat
 - **What we need in order to resolve this:**
 	- We need to understand how frequently the data in the *Brands* table is populated and being updated and if there is our source of truth. Where is this data being sourced and are there other tables we could use.
  	- We need to align on how we are handling missing values. Should we keep these records, exclude, or flag these values in our reporting?
-    	- We need to confirm whether barcodes are unique to a specific brand and there are not multiple barcodes that reference the same brand.
+    - We need to confirm whether barcodes are unique to a specific brand and there are not multiple barcodes that reference the same brand.
 
