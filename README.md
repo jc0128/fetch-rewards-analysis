@@ -216,10 +216,19 @@ We wanted to follow up with my analysis on the Fetch Rewards data that you have 
 **Key Findings and Questions** 
 - **Impactful Data Quality Issues we have identified:**
 We have found records in the *Receipts* and *Brand* table that are missing some key data points such as the *Brand Name, Barcode, and pricing fields* that impact reporting. There are also inconsistencies in the *Brand Name* (formatting, differences, missing values) and duplicated records. Additionally there are some duplicated identifiers in the *users* table that could lead to false reporting numbers.
+
+
 - **How we identified these issues:** 
 Durring our data exploratory analysis and data validation, we discovered missmatches when joining *Brands*, *Receipts*, and *Users* table together. There were anomalies in the *brand names, barcodes and pricing fields* that were flagged as inconsistencies. Additionally there were duplicated *users* when comparing to reference tables.
+
+
 - **What we need in order to resolve this:**
 	- We need to understand how frequently the data in the *Brands* table is populated and being updated and if there is our source of truth. Where is this data being sourced and are there other tables we could use.
  	- We need to align on how we are handling missing values. Should we keep these records, exclude, or flag these values in our reporting?
     - We need to confirm whether barcodes are unique to a specific brand and there are not multiple barcodes that reference the same brand.
+
+-**How can we optimize our data for better insights and analysis:**
+Having more cleaner/clearer brand and recipt data will give us a better leverage user spending behavior habits and insights as well as popular trending brands/items. Aligning on how we are consitently defining brand names and handling missing data can ensure better data quality within our reporting. 
+
+--**
 
