@@ -208,9 +208,14 @@ Here is the SQL Queries that I have created to perform these checks:
 
 If I were to comunicate my findings and analysis of the datasets to buisness stakeholders who are non-technical, this is how I would construct my email:
 
-Hello stakeholder(s), 
+Hello stakeholder, 
 
 I hope you are doing well and enjoying your week! 
-I wanted to follow up with my analysis on the Fetch Rewards data that you have assigned me to look into over.  I wanted to highlight and address a few key findings and questions to ensure we have accuracy and alignment. 
+I wanted to follow up with my analysis on the Fetch Rewards data that you have assigned me to look into over.  I wanted to highlight and address a few key findings and questions to ensure we have accuracy and alignment on the data. 
+
+**Key Findings and Questions** 
+- **Impactful Data Quality Issues we have identified:**
+NULL Values or Missing values: We have found records in the *Receipts* and *Brand* table that are missing some key data points such as the *Brand Name, Barcode, and pricing fields* that impact reporting. There are also inconsistencies in the *Brand Name* (formatting, differences, missing values) and duplicated records. Additionally there are some duplicated identifiers in the *users* table that could lead to false reporting numbers.
+- **How we identified these issues:** 
 
 
