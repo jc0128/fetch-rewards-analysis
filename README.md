@@ -3,8 +3,8 @@ This is an repository contains my solutions on unstructured data to provide anal
 
 ## Table of Contents  
 - [Problem Statement](#Problem-Statement)  
-- [Data Transformation](#Data-Transformation)  
-- [Data Modeling](#Data-Modeling)  
+- [Data Transformation (Converting .json files to .csv)](#Data-Transformation-Converting-.json-files-to-.csv))  
+- [Data Modeling (Creating Relational Data Model Diagram)](#Data-Modeling (Creating Relational Data Model Diagram))
 - [SQL Queries for Business Operations](#SQL-Queries-for-Business-Operations)  
 - [Data Quality Checks](#Data-Quality-Checks)  
 - [Optimization Strategies](#optimization-strategies)  
@@ -215,7 +215,7 @@ Here is the SQL Queries that I have created to perform these checks:
 
 
 
-## Stakeholder Communication (Slack Message or Email):
+## Stakeholder Communication (Slack Message or Email)
 
 If I were to comunicate my findings and analysis of the datasets to buisness stakeholders who are non-technical, this is how I would construct my email:
 
