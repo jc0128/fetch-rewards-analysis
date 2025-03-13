@@ -3,8 +3,8 @@ This is an repository contains my solutions on unstructured data to provide anal
 
 ## Table of Contents  
 - [Problem Statement](#Problem-Statement)  
-- [Data Transformation](#Data-Transformation-Converting-.json-files-to-.csv))  
-- [Data Modeling](#Data-Modeling-(Creating-Relational-Data-Model-Diagram))
+- [Data Transformation](#Data-Transformation)  
+- [Data Modeling](#Data-Modeling)
 - [SQL Queries for Business Operations](#SQL-Queries-for-Business-Operations)  
 - [Data Quality Checks](#Data-Quality-Checks)  
 - [Optimization Strategies](#optimization-strategies)  
@@ -20,7 +20,7 @@ This is an repository contains my solutions on unstructured data to provide anal
 5. **Stakeholder Comunnication:** Generate insights from the data and address/ ask questions to the stakeholder.
 
 
-## Data Transformation (Converting .json files to .csv)
+## Data Transformation
 Looking through the json files, there are nested fields within the tables that need to be unnested or cleaned and converted to a format that is readible into a database. 
 
 I created a jupyter notebook python file: [to_csv.ipynb](./to_csv.ipynb) to clean and normalize these json files provided. I normalize the json files individually and export them to a .csv files. *(Note: you will need to comment out lines and put your file path to read in json files)*.
@@ -36,7 +36,7 @@ Here are the exported .csv files that are cleaned:
 - [Receipt Items List.csv](./receipt_items_list.csv)
 
 
-## Data Modeling (Creating Relational Data Model Diagram)
+## Data Modeling
 
 After transforming the jsons into a readable format, I am able to create a relational diagram on the tables based on primary and forien keys I have identified:
 
