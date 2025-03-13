@@ -211,11 +211,15 @@ If I were to comunicate my findings and analysis of the datasets to buisness sta
 Hello stakeholder, 
 
 I hope you are doing well and enjoying your week! 
-I wanted to follow up with my analysis on the Fetch Rewards data that you have assigned me to look into over.  I wanted to highlight and address a few key findings and questions to ensure we have accuracy and alignment on the data. 
+We wanted to follow up with my analysis on the Fetch Rewards data that you have assigned me to look into over.  we wanted to highlight and address a few key findings and questions to ensure we have accuracy and alignment on the data. 
 
 **Key Findings and Questions** 
 - **Impactful Data Quality Issues we have identified:**
-NULL Values or Missing values: We have found records in the *Receipts* and *Brand* table that are missing some key data points such as the *Brand Name, Barcode, and pricing fields* that impact reporting. There are also inconsistencies in the *Brand Name* (formatting, differences, missing values) and duplicated records. Additionally there are some duplicated identifiers in the *users* table that could lead to false reporting numbers.
+We have found records in the *Receipts* and *Brand* table that are missing some key data points such as the *Brand Name, Barcode, and pricing fields* that impact reporting. There are also inconsistencies in the *Brand Name* (formatting, differences, missing values) and duplicated records. Additionally there are some duplicated identifiers in the *users* table that could lead to false reporting numbers.
 - **How we identified these issues:** 
-
+Durring our data exploratory analysis and data validation, we discovered missmatches when joining *Brands*, *Receipts*, and *Users* table together. There were anomalies in the *brand names, barcodes and pricing fields* that were flagged as inconsistencies. Additionally there were duplicated *users* when comparing to reference tables.
+- **What we need in order to resolve this:**
+	- We need to understand how frequently the data in the *Brands* table is populated and being updated and if there is our source of truth. Where is this data being sourced and are there other tables we could use.
+ 	- We need to align on how we are handling missing values. Should we keep these records, exclude, or flag these values in our reporting?
+    	- We need to confirm whether barcodes are unique to a specific brand and there are not multiple barcodes that reference the same brand.
 
